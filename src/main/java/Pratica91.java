@@ -19,9 +19,9 @@ public class Pratica91 {
         String os = System.getProperty("os.name");
         out.println(os);
 
-        long memoriaTotal = rt.totalMemory() / 1000000;
-        long memoriaLivre = rt.freeMemory() / 1000000;
-        long memoriaMaxima = rt.maxMemory() / 1000000;
+        long memoriaTotal = rt.totalMemory() / 1048576;
+        long memoriaLivre = rt.freeMemory() / 1048576;
+        long memoriaMaxima = rt.maxMemory() / 1048576;
 
         out.println(rt.availableProcessors());
         out.println(memoriaTotal);
