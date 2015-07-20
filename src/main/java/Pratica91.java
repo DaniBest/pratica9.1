@@ -28,6 +28,11 @@ public class Pratica91 {
         out.println(memoriaLivre);
         out.println(memoriaMaxima);
 
+/*        
+        out.println(rt.totalMemory());
+        out.println(rt.freeMemory());
+        out.println(rt.maxMemory());
+*/
     }
 
 }
